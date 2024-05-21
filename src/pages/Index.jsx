@@ -1,4 +1,4 @@
-import { Container, Text, VStack, Box, Heading, Button, Image, Flex } from "@chakra-ui/react";
+import { Container, Text, VStack, Box, Heading, Button, Image, Flex, Link } from "@chakra-ui/react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Index = () => {
@@ -15,6 +15,23 @@ const Index = () => {
         <Box>
           <Heading as="h2" size="lg" mb={4}>About Me</Heading>
           <Text textAlign="center" color="green.500">I have experience in building web applications using modern technologies like React, Chakra UI, and more. I love to learn and explore new tools and frameworks to improve my skills.</Text>
+        </Box>
+        <Box>
+          <Heading as="h2" size="lg" mb={4}>Projects</Heading>
+          <VStack spacing={4} align="start">
+            <Box>
+              <Heading as="h3" size="md">Project 1</Heading>
+              <Text>Description of project 1. <Link href="https://github.com/project1" color="teal.500" isExternal>View on GitHub</Link></Text>
+            </Box>
+            <Box>
+              <Heading as="h3" size="md">Project 2</Heading>
+              <Text>Description of project 2. <Link href="https://github.com/project2" color="teal.500" isExternal>View on GitHub</Link></Text>
+            </Box>
+            <Box>
+              <Heading as="h3" size="md">Project 3</Heading>
+              <Text>Description of project 3. <Link href="https://github.com/project3" color="teal.500" isExternal>View on GitHub</Link></Text>
+            </Box>
+          </VStack>
         </Box>
         <Flex justify="center" width="100%" mt={4}>
           <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="green" variant="outline" mx={2}>
