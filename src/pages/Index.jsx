@@ -17,13 +17,13 @@ const Index = () => {
           <Text textAlign="center">I have experience in building web applications using modern technologies like React, Chakra UI, and more. I love to learn and explore new tools and frameworks to improve my skills.</Text>
         </Box>
         <Flex justify="center" width="100%" mt={4}>
-          <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="teal" variant="outline" mx={2}>
+          <Button as="a" href="https://github.com" target="_blank" leftIcon={<FaGithub />} colorScheme="green" variant="outline" mx={2}>
             GitHub
           </Button>
-          <Button as="a" href="https://linkedin.com" target="_blank" leftIcon={<FaLinkedin />} colorScheme="teal" variant="outline" mx={2}>
+          <Button as="a" href="https://linkedin.com" target="_blank" leftIcon={<FaLinkedin />} colorScheme="green" variant="outline" mx={2}>
             LinkedIn
           </Button>
-          <Button as="a" href="mailto:example@example.com" leftIcon={<FaEnvelope />} colorScheme="teal" variant="outline" mx={2}>
+          <Button as="a" href="mailto:example@example.com" leftIcon={<FaEnvelope />} colorScheme="green" variant="outline" mx={2}>
             Email
           </Button>
         </Flex>
